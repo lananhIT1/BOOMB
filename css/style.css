@@ -1,0 +1,155 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	font-family:tahoma;
+	font-size:18px;
+}
+div.top-bar{
+	background-color:black;
+	width:100%;
+	height:33px;
+	text-align:center;	
+
+}
+div.top-bar p{
+	color:white;
+	font-weight: 3px;
+	font-size:14px;
+	padding-top:7px;
+
+}
+div.header{
+	display:block;
+	background-color:white;
+
+}
+div.containerHeader{
+	
+	max-width:1140px;
+	margin:0 auto;
+	height:auto;
+
+}
+div.header-brand{
+	height:50px;
+}
+div.header-brandLink{
+	padding-top :15px;
+	width:1140px;	
+}
+div.header-brandLink div.aboutMe,div.icon-header a{
+	color:#2B2B2B;
+}
+div.aboutMe,div.icon-header{
+	float:left;
+}
+div.aboutMe{
+	width:70%;	
+}
+div.icon-header{
+	width:30%;
+}
+
+div.icon-header ul{
+	float:right;
+}
+div.icon-header ul li{
+	list-style: none;
+	display:inline;
+	margin-right:25px;
+}
+div.icon-header ul li a{
+	text-decoration:none;
+	font-size:30px;
+}
+div.header-logo-search{
+	width:1140px;
+	margin-top:-10;
+	height:100px;
+}
+div.header-logo-search div.logo{
+	width:55%;
+}
+div.logo img,div.search form{
+	float:right;
+}
+div.header-logo-search div.search{
+	width:45%;
+}
+div.logo,div.search{
+	float:left;
+}
+
+div.search input,div.search div.search-icon{
+	display:inline-block;
+	border:none;
+}
+div.search input{
+	width:87%;
+	height:100%;
+}
+div.search form{
+	border:2px solid black;
+	width:50%;
+	margin-top:30px;
+	height:33px;
+}
+div.search button{
+	border:none;
+	background-color:white;
+	text-align:right;
+	padding-top:3px;
+}
+div.search button i{
+	font-size:19px;
+}
+div.menuBig{
+	width:1140px;
+	height:30px;
+}
+
+ul.menuList{
+	background-color:white;
+	margin:0 auto;
+	text-align:center;
+	
+}    
+ul.menuList li{
+        position: relative;
+        display: inline-block;
+    }
+ 
+    .menuList li a{
+        padding: 10px;
+        line-height: 20px;
+        text-decoration:none;
+        color:black;
+    }
+ 
+    .menuList .list-menu{
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 100%;
+        width: 200px;
+        background-color: #eee;
+        padding: 5px 20px;
+    }
+     
+    .menuList li:hover>.list-menu{
+        display: block;
+    }
+ 
+    .menuList>li>.list-menu{
+        top: 25px;
+        left: 0;
+    }
+    .menuList .list-menu li{
+    	display:block;
+    	border-bottom:1px dotted black;
+    	padding-top:8px;
+    	padding-bottom:8px;
+    }
+
